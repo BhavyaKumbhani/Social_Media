@@ -1,0 +1,48 @@
+.SideBar {
+    flex: 3;
+    background-color: bisque;
+}
+
+.sidebarWrapper {
+    padding: 20px 0;
+}
+
+.sidebarlist {
+    padding: 5px;
+}
+
+.sidebaritem {
+    margin: 20px;
+    list-style: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.sidebaricon {
+    margin-right: 15px;
+}
+
+.sidebarlistItemText {
+    /* padding-left: 15px; */
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    font-weight: 1000;
+    border-radius: 5px;
+}
+
+.btnhr {
+    margin: 10px;
+}
+
+.sideimg {
+    width: 50px;
+    height: 50px;
+}
+
+.friendlistItem {
+    list-style: none;
+}
