@@ -1,6 +1,5 @@
 .SideBar {
     flex: 3;
-    background-color: #ffe4c4;
     height: calc(100vh-60px);
     overflow-y:scroll !important;
     overflow-x: scroll;
