@@ -28,10 +28,11 @@ export default function Share() {
                         <span className="shareoptionText">Location</span>
                     </div>
                     <div className="shareOption">
-                        <MoodIcon htmlColor='yellow' className='shareoptionimg'/>
+                        <MoodIcon htmlColor='gold' className='shareoptionimg'/>
                         <span className="shareoptionText">Feelings</span>
                     </div>
                 </div>
+                <button className='sharebtn'> Share</button>
             </div>
         </div>
     </div>
