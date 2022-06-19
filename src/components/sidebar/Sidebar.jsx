@@ -59,7 +59,7 @@ const Sidebar = () => {
                     </li>
                     <li className='friendlistItem'>
                     <img src='/assets/Person/download (3).jpg' className='sideimg' />
-                    <span className='sideimgText'>ganesha </span>
+                    <span className='sideimgText'>ganesha GDVSHFBSDK</span>
                     </li>
                     <li className='friendlistItem'>
                     <img src='/assets/Person/download (4).jpg' className='sideimg' />
