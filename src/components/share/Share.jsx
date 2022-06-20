@@ -9,7 +9,7 @@ export default function Share() {
     <div className='share'>
         <div className="shareContainer">
             <div className="shareTop">
-                    <img src='/assets/Person/download (1).jpg' className='shareImage'/>
+                    <img src='/assets/Person/10.jpg' className='shareImage'/>
                     <input type="text" placeholder='Share comment' className='shareTopText' />
             </div>
             <hr className='shareHr'/>
