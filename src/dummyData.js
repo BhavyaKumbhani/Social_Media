@@ -1,52 +1,52 @@
 export const Users = [
     {
       id:1,
-      profilePicture: "assets/Person/download (1).jpg",
+      profilePicture: "assets/post/download (5).jpg",
       username: "Safak Kocaoglu",
     },
     {
       id:2,
-      profilePicture: "assets/Person/2.jpg",
+      profilePicture: "assets/post/5.jpg",
       username: "Janell Shrum",
     },
     {
       id:3,
-      profilePicture: "assets/Person/download (3).jpg",
+      profilePicture: "assets/post/3.jpg",
       username: "Alex Durden",
     },
     {
       id:4,
-      profilePicture: "assets/Person/download (4).jpg",
+      profilePicture: "assets/post/4.jpg",
       username: "Dora Hawks",
     },
     {
       id:5,
-      profilePicture: "assets/Person/download (5).jpg",
+      profilePicture: "assets/post/5.jpg",
       username: "Thomas Holden",
     },
     {
       id:6,
-      profilePicture: "assets/Person/download (6).jpg",
+      profilePicture: "assets/post/6.jpg",
       username: "Shirley Beauchamp",
     },
     {
       id:7,
-      profilePicture: "assets/Person/download (7).jpg",
+      profilePicture: "assets/post/ad.jpg",
       username: "Travis Bennett",
     },
     {
       id:8,
-      profilePicture: "assets/Person/download.jpg",
+      profilePicture: "assets/post/download (4).jpg",
       username: "Kristen Thomas",
     },
     {
       id:9,
-      profilePicture: "assets/Person/1.jpg",
+      profilePicture: "assets/post/1.jpg",
       username: "Gary Duty",
     },
     {
       id:10,
-      profilePicture: "assets/Person/2.jpg",
+      profilePicture: "assets/post/2.jpg",
       username: "Safak Kocaoglu",
     },
   ];
@@ -55,7 +55,7 @@ export const Users = [
     {
       id: 1,
       desc: "Love For All, Hatred For None.",
-      photo: "assets/Person/1.jpg",
+      photo: "assets/Person/10.jpg",
       date: "5 mins ago",
       userId: 1,
       like: 32,
@@ -72,7 +72,7 @@ export const Users = [
     {
       id: 3,
       desc: "Every moment is a fresh beginning.",
-      photo: "assets/Person/3.jpg",
+      photo: "assets/post/5.jpg",
       date: "1 hour ago",
       userId: 3,
       like: 61,
@@ -130,7 +130,7 @@ export const Users = [
     },
     {
       id: 10,
-      photo: "assets/Person/modal.jpeg",
+      photo: "assets/Person/modal.jpg",
       date: "1 week ago",
       userId: 10,
       like: 104,

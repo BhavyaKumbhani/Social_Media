@@ -1,5 +1,7 @@
 import React from "react";
 import "./Right.css";
+import Online from '../online/Online';
+import {Users} from '../../dummyData';
 
 const Right = () => {
   return (
@@ -18,45 +20,12 @@ const Right = () => {
         />
         <h4 className="rightbarTitle">Online Friends</h4>
         <ul className="onlinefriendList">
-          <li className="rightBarFriend">
-            <div className="rightBarProfileImgContainer">
-              <img className="friendImg" src="/assets/person/1.jpg" alt="" />
-              <span className="onlineMark"></span>
-            </div>
-            <div className="friendname">Jhon Doe</div>
-          </li>
-
-          <li className="rightBarFriend">
-            <div className="rightBarProfileImgContainer">
-              <img className="friendImg" src="/assets/person/1.jpg" alt="" />
-              <span className="onlineMark"></span>
-            </div>
-            <div className="friendname">Jhon Doe</div>
-          </li>
-
-          <li className="rightBarFriend">
-            <div className="rightBarProfileImgContainer">
-              <img className="friendImg" src="/assets/person/1.jpg" alt="" />
-              <span className="onlineMark"></span>
-            </div>
-            <div className="friendname">Jhon Doe</div>
-          </li>
-
-          <li className="rightBarFriend">
-            <div className="rightBarProfileImgContainer">
-              <img className="friendImg" src="/assets/person/1.jpg" alt="" />
-              <span className="onlineMark"></span>
-            </div>
-            <div className="friendname">Jhon Doe</div>
-          </li>
-
-          <li className="rightBarFriend">
-            <div className="rightBarProfileImgContainer">
-              <img className="friendImg" src="/assets/person/1.jpg" alt="" />
-              <span className="onlineMark"></span>
-            </div>
-            <div className="friendname">Jhon Doe</div>
-          </li>
+          {
+            Users?.map((u)=>(
+              <Online key={u?.id} onlineuser={u}/>
+            ))
+          }
+            
         </ul>
       </div>
     </div>
